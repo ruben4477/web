@@ -1,0 +1,80 @@
+@import url('//cdn.jsdelivr.net/npm/@xpressengine/xeicon@2.3.3/xeicon.css');
+@import url('//cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css');
+@import url('//fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap')
+@import url('//fonts.cdnfonts.com/css/campton');
+
+#rb-detail { position:relative; display:block; max-width:850px; margin:0 auto; }
+
+.detail-info-view .in-view figure >* { font-family:Pretendard, xeicon !important; }
+.detail-info-view .in-view figure img { /*max-width:1000px;*/ margin:0 auto; }
+.detail-info-view .in-view { height:100% !important; text-align:center; }
+.detail-info-view .view-more {   left:-99999999px !important; height:0 !important; overflow:hidden !important; z-index:-9999; font-size:0 !important; }
+body { counter-reset: section; }
+
+
+#rb-cafe24-hd { text-align:center; font-family:Pretendard; padding:50px 80px; }
+#rb-cafe24-hd .title { display:flex; flex-direction:column; gap:13px; }
+#rb-cafe24-hd .title h1 { font-size:23px; font-weight:500; color:#000; }
+#rb-cafe24-hd .title p { font-family:Montserrat !important; color:#C6C6C6; font-size:10px; font-weight:normal !important; letter-spacing:5px; }
+#rb-cafe24-hd .line-1 { display:flex; width:1px; height:50px; background:#E9E9E9; margin:27.5px auto 0; }
+
+#rb-cafe24-hd .step { display:flex; justify-content:space-between; padding:31.5px 0 100px; }
+#rb-cafe24-hd .step .box { width:140px; align-items:center; display:flex; flex-direction:column; gap:25px; }
+#rb-cafe24-hd .step .icon { display:flex; width:118px; height:118px; border:1px solid #EBEBEB; border-radius:300%; align-items:center; justify-content:center; }
+#rb-cafe24-hd .step .icon img { width:34.56px; height:auto; }
+#rb-cafe24-hd .step .summary { font-size:13px; line-height:130%; display:flex; flex-direction:column; gap:6px; letter-spacing:-.025em; }
+#rb-cafe24-hd .step .summary h2 { font-size:21px; font-weight:700; }
+
+#rb-cafe24-hd .rb-btn { display:flex; gap:20px; }
+#rb-cafe24-hd .rb-btn a { flex:1; display:flex; align-items:center; justify-content:center; height:80px; border-radius:8px; border:1px solid #E2E2E2; background:#fff; font-size:20px; gap:5px; transition:.3s; }
+#rb-cafe24-hd .rb-btn i { font-family:xeicon !important; font-size:22px; }
+#rb-cafe24-hd .rb-btn a:hover { border-color:#aaa; }
+
+
+#rb-cafe24 { text-align:center; padding:50px 0 80px; }
+#rb-cafe24 .hd-bnr-box { position:relative; display:block; padding:0 0 150px; }
+#rb-cafe24 .hd-bnr-box img { width:100%; height:auto; }
+#rb-cafe24 .hd { text-align:center; display:flex; flex-direction:column; gap:12px; }
+#rb-cafe24 .hd h1 { font-size:24px; }
+#rb-cafe24 .hd h1 img { height:22px; }
+#rb-cafe24 .hd span { font-size:16px; line-height:120%; }
+#rb-cafe24 .hd p { font-size:10px; color:#C9C9C9; font-family:Montserrat; text-transform:uppercase; font-weight:400; letter-spacing:1.4px; }
+#rb-cafe24 .hd .img { margin:60px auto 50px; }
+
+#rb-cafe24 .edit { }
+#rb-cafe24 .edit h1 { position:relative; display:block; margin:50px auto 30px; line-height:120%; font-size:27px; padding-bottom:40px; font-weight:600; }
+#rb-cafe24 .edit h1 p { font-family:Montserrat; font-size:10px; color:#C6C6C6; letter-spacing:5px; font-weight:normal; padding:0 0 6px; }
+#rb-cafe24 .edi-box { display:flex; gap:50px; margin:0 auto; }
+#rb-cafe24 .edi-box .img { flex:1; }
+#rb-cafe24 .edi-box .img div { }
+#rb-cafe24 .edi-box .img img { width:100%; border:1px solid #eee; }
+#rb-cafe24 .edi-box .guide { flex:1; font-size:14px; text-align:left; }
+#rb-cafe24 .edi-box .guide ul { counter-reset: section; display:flex; flex-direction:column; gap:50px; }
+#rb-cafe24 .edi-box .guide ul li { position:relative; display:flex; flex-direction:column; gap:10px; line-height:140%; padding:0 0 0 43px; }
+#rb-cafe24 .edi-box .guide ul li >* { line-height:140%; }
+#rb-cafe24 .edi-box .guide ul li .num { position:absolute; left:0; top:0; display:flex; width:28px; height:28px; background:#006FFF; border-radius:5px; align-items:center; justify-content:center; color:#fff; font-weight:500; font-family:Campton; counter-increment: section; content: counters(section,"-"); }
+#rb-cafe24 .edi-box .guide ul li section { padding:12px 0 15px; display:flex; flex-direction:column; gap:10px; }
+#rb-cafe24 .edi-box .guide ul li h2 { color:#006FFF; font-size:18px; font-weight:600; }
+#rb-cafe24 .edi-box .guide ul li h3 { color:#71A6EB; font-size:16px; padding:0 0 0px; font-weight:600; }
+#rb-cafe24 .edi-box .guide ul li b { font-weight:normal; text-decoration:underline; text-underline-position:under; text-decoration-color:#ddd; }
+#rb-cafe24 .edi-box .guide ul li p.txt { font-size:12px; color:#A3A3A3; display:block; margin:; }
+#rb-cafe24 .edi-box .guide ul li p.txt b { text-decoration:underline; text-underline-position:under; text-decoration-color:#aaa; font-weight:normal; }
+
+
+
+#rb-manual { font-family:Pretendard !important; font-size:17px; padding-bottom:60px; }
+#rb-manual * { font-family:Pretendard !important; }
+#rb-manual .title { display:flex; flex-direction:column; gap:13px; align-items:center; font-size:23px; font-weight:500; text-align:center; }
+#rb-manual .title p { font-family:Montserrat !important; color:#C6C6C6; font-size:10px; font-weight:normal !important; letter-spacing:5px; }
+#rb-manual .line { display:flex; width:1px; height:62px; background:#EEEEEE; margin:30px auto; }
+#rb-manual .column { display:flex; gap:50px; line-height:120%; justify-content:center; }
+#rb-manual .column > * { text-align:left; }
+#rb-manual .column .summary { width:300px; padding-top:50px; }
+#rb-manual .column .sample { width:471px; }
+#rb-manual .column .sample .txt { display:block; font-size:13px; color:#C6C7CC; padding:0 0 15px; }
+#rb-manual .column .sample .img-box { position:relative; width:471px; height:475px;  display:block; font-size:0; }
+#rb-manual .column .sample .img-box li { position:absolute; display:inline-flex; width:312px; border:1px solid #F5F5F5; box-shadow:5px 5px 8px rgba(0,0,0,0.02); }
+#rb-manual .column .sample .img-box li:nth-child(1) { top:0; left:0; }
+#rb-manual .column .sample .img-box li:nth-child(2) { top:80px; left:50px; }
+#rb-manual .column .sample .img-box li:nth-child(3) { top:21px; left:160px; }
+#rb-manual .column .sample .img-box img { width:100%; }
