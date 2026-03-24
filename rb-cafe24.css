@@ -61,7 +61,7 @@ body { counter-reset: section; }
 #rb-cafe24 .edi-box .guide ul li p.txt { font-size:12px; color:#A3A3A3; display:block; margin:; }
 #rb-cafe24 .edi-box .guide ul li p.txt b { text-decoration:underline; text-underline-position:under; text-decoration-color:#aaa; font-weight:normal; }
 
-#rb-cafe24 .info-app { display:block; padding:30px 0; font-size:12px; opacity:.5; }
+#rb-cafe24 .info-app { display:block; padding:80px 0 0; color:#016FFF; font-size:12px; opacity:.5; }
 
 
 #rb-manual { font-family:Pretendard !important; font-size:17px; padding-bottom:60px; }
